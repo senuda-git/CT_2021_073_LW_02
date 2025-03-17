@@ -1,6 +1,5 @@
 package Q_01;
 
-
 import java.util.Scanner;
 
 public class c {
@@ -19,4 +18,3 @@ public class c {
         System.out.println("your answer is : " + ANSWER);
     }
 }
-
