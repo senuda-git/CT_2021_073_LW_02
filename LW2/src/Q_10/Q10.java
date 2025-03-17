@@ -1,6 +1,5 @@
 package Q_10;
 
-
 import java.util.Scanner;
 
 public class Q10 {
@@ -24,10 +23,7 @@ public class Q10 {
         double monthlyPayment = (loanAmount * MonthlyInterestRate) / (1 - Math.pow(1 / (1 + MonthlyInterestRate), NumberOfPayments));
         double totalPayment = monthlyPayment * NumberOfPayments;
 
-
-        //System.out.println("your Monthly Interest Rate is : " + MonthlyInterestRate);
-        //System.out.println("your Number Of Payments is : " + NumberOfPayments);
-        System.out.println("your Monthly Payment is : " + monthlyPayment);
-        System.out.println("your total Payment is : " + totalPayment);
+        System.out.println("your Monthly Payment is : " + String.format("%.2f", monthlyPayment));
+        System.out.println("your total Payment is : " + String.format("%.2f", totalPayment));
     }
 }
