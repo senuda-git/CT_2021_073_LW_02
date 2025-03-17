@@ -1,6 +1,5 @@
 package Q_07;
 
-
 import java.util.Scanner;
 
 public class Q07 {
@@ -14,9 +13,8 @@ public class Q07 {
         System.out.println("Enter Height in cm : ");
         int H = scanner.nextInt();
 
-
         double BMI = W / Math.pow((H / 100.0), 2);
 
-        System.out.println("your BMI is : " + BMI);
+        System.out.println("your BMI is : " + String.format("%.2f", BMI));
     }
 }
