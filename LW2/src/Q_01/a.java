@@ -1,6 +1,5 @@
 package Q_01;
 
-
 import java.util.Scanner;
 
 public class a {
@@ -16,7 +15,6 @@ public class a {
 
         System.out.println("Enter C : ");
         double C = scanner.nextDouble();
-
 
         double ANSWER = Math.sqrt(Math.pow(B, 2) + 4 * A * C);
 
