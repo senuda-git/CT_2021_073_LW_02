@@ -1,6 +1,5 @@
 package Q_03;
 
-
 import java.util.Scanner;
 
 public class Q03 {
@@ -11,11 +10,8 @@ public class Q03 {
         System.out.println("Enter temperature in degrees Celsius : ");
         double Celsius = scanner.nextDouble();
 
-
-
         double Fahrenheit = (1.8 * Celsius) + 32;
 
-        System.out.println("your answer is : " + Fahrenheit);
+        System.out.println("your temperature is : " + Fahrenheit + " F");
     }
 }
-
