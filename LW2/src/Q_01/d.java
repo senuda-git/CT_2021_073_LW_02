@@ -10,9 +10,9 @@ public class d {
         System.out.println("Enter radius : ");
         double r = scanner.nextDouble();
 
-        double ANSWER = Math.PI * (Math.pow(r, 2));
+        double Area = Math.PI * (Math.pow(r, 2));
 
-        System.out.println("your Circle Area is : " + String.format("%.2f", ANSWER));
+        System.out.println("your Circle Area is : " + String.format("%.2f", Area));
     }
 }
 
