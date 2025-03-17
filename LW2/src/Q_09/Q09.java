@@ -1,6 +1,5 @@
 package Q_09;
 
-
 import java.util.Scanner;
 
 public class Q09 {
@@ -19,6 +18,6 @@ public class Q09 {
 
         double Gain = P * (Math.pow((1 + (R / 100.0)), N));
 
-        System.out.println("your Gain is : " + Gain);
+        System.out.println("your Gain after " + N + " years is " + String.format("%.2f", Gain));
     }
 }
