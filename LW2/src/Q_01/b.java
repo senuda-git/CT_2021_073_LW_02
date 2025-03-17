@@ -1,6 +1,5 @@
 package Q_01;
 
-
 import java.util.Scanner;
 
 public class b {
