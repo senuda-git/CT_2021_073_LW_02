@@ -1,6 +1,5 @@
 package Q_05;
 
-
 import java.util.Scanner;
 
 public class Q05 {
@@ -12,10 +11,8 @@ public class Q05 {
         double Fahrenheit = scanner.nextDouble();
 
 
+        double Celsius = (5.0 / 9.0) * (Fahrenheit - 32);
 
-        double Celsius = (double(9.0 / 5.0)) * (Fahrenheit - 32);
-
-        System.out.println("your answer is : " + Celsius);
+        System.out.println("your temperature is : " + String.format("%.2f", Celsius) + " C");
     }
 }
-
