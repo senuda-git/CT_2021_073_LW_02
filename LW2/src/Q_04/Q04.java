@@ -10,7 +10,7 @@ public class Q04 {
         System.out.println("Enter Body weight in pounds : ");
         double weight = scanner.nextDouble();
 
-        double calories = 19 * weight;
+        double calories = weight * 19;
 
         System.out.println("your Daily Calories intake is : " + calories);
     }
